@@ -28,5 +28,7 @@ _drop a database in query tool_
 **Setup postgresql & pgadmin4 in ubuntu**
 _references_
 
-- [fullsetup][https://www.tecmint.com/install-postgresql-and-pgadmin-in-ubuntu/]
+- [fullsetup](https://www.tecmint.com/install-postgresql-and-pgadmin-in-ubuntu/)
 - [remove postgresql](https://kb.objectrocket.com/postgresql/how-to-completely-uninstall-postgresql-757)
+- [digital-ocean-blog](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04)
+- [most-essential-commands](https://www.datacamp.com/community/tutorials/10-command-line-utilities-postgresql?utm_source=adwords_ppc&utm_campaignid=1455363063&utm_adgroupid=65083631748&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=332602034364&utm_targetid=aud-390929969673:dsa-429603003980&utm_loc_interest_ms=&utm_loc_physical_ms=1001442&gclid=Cj0KCQjws-OEBhCkARIsAPhOkIYWjJ2qfReFamoJTAP_tkxnd79KaE65IrJ7rRjock7hEDX_OnnQLOcaAlPpEALw_wcB)
