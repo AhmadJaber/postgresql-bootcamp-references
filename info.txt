@@ -1,0 +1,9 @@
+*** new login/role
+
+name - ashik
+password - secure@role
+
+*** database
+
+name - learning
+owner - ashik
