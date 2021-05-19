@@ -21,3 +21,13 @@
   - Use explicit column name in SELECT statement.
 
 - Selecting specific column from a table ✅
+- Adding aliases to a column name ✅
+- Assigning column alias to an expression ✅
+- using ORDER BY to sort records ✅
+- using ORDER BY with alias column name ✅
+- use ORDER BY to sort rows by expressions ✅
+- how to use column_name or column_number in ORDER BY clause ✅
+- use ORDER BY with NULL values ✅
+- selecting DISTINCT values ✅
+
+  > All code can be found in `./tables/movies.sql`
