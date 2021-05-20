@@ -30,4 +30,4 @@
 - use ORDER BY with NULL values ✅
 - selecting DISTINCT values ✅
 
-  > All code can be found in `./tables/movies.sql`
+  > All code can be found in `./queries/movies.sql`

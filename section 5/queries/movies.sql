@@ -171,7 +171,7 @@ ORDER BY
 -- lets view all the records in actors
 SELECT * FROM actors;
 
--- sort all the records by firs_name asc, date_of_birth desc
+-- sort all the records by first_name asc, date_of_birth desc
 SELECT
 	first_name,
 	last_name,

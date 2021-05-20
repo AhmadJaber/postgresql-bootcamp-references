@@ -11,7 +11,7 @@
 - Updating all recrods in a table ✅
 - Delete data from a table ✅
 
-  > code reference in `./tables/customers.sql`
+  > code reference in `./queries/customers.sql`
 
 - Using `UPSERT`
-  > code reference in `./tables/t_tag.sql`
+  > code reference in `./queries/t_tag.sql`

@@ -1,0 +1,53 @@
+### Filtering Data
+
+**Operators**
+Operators are special keywords in SQL that we use in conjunction with SQL clauses to
+
+- compare the values of fields
+- Select subsets of field
+- Perform arithmatic operations
+
+There are three types of Operators -
+
+- COMPARISON
+
+  - equal to -> =
+  - greater than -> >
+  - less than -> <
+  - greater than or equal to -> >=
+  - less than or equal to -> <=
+  - Not equal to <>
+
+- LOGICAL
+
+  - AND
+  - OR
+  - LIKE
+  - IN
+  - BETWEEN
+
+- ARITHMETIC
+  - addition -> +
+  - subtraction -> -
+  - division -> /
+  - multiply -> \*
+  - modulo -> %
+
+This different types of Operators can be combined to make more complex queries
+
+**Topics Covered**
+
+- Execution order with AND, OR Operators
+
+  - AND processed first and the OR is processed second
+  - SQL processes AND Operator like multiplication & OR operator like addition unless i include parenthesis
+  - without parenthesis, `3*2+1 = 7`, with parenthesis, `3*(2+1) = 9`.
+  - it is always better to use parentheses whenever i am using multiple operators.
+
+- Can u use column aliase with WHERE?
+
+  - no, if i use column aliases in SELECT clause, i can not use them in WHERE clause.
+  - but for a sub-query i can use that.
+
+- Order of Execution of WHERE clause in SELECT
+  - FROM > WHERE > SELECT > ORDER BY
