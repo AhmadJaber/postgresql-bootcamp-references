@@ -25,6 +25,7 @@ There are three types of Operators -
   - LIKE
   - IN
   - BETWEEN
+  - NOT
 
 - ARITHMETIC
   - addition -> +
