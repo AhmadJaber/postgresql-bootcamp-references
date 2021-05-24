@@ -99,3 +99,59 @@ Floating Point Numbers
 | INTERVAL               | store periods of time |
 
 > `TIMESTAMPTZ` is a timezone-aware timestamp data type
+
+_TIMESTAMP VS TIMESTAMPTZ_
+
+- [time_zone_db](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) ✅
+
+_temporal type references_
+
+- [date](https://www.postgresqltutorial.com/postgresql-date/) ✅
+- [time](https://www.postgresqltutorial.com/postgresql-time/) ✅
+- [timestamptz](https://www.postgresqltutorial.com/postgresql-timestamp/) ✅
+
+**UUID Type**
+[uuid](https://www.postgresqltutorial.com/postgresql-uuid/) ✅
+
+**Array Type**
+[array](https://www.postgresqltutorial.com/postgresql-array/) ✅
+
+**hstore type**
+[hstore](https://www.postgresqltutorial.com/postgresql-hstore/) ✅
+
+**JSON & JSONB data-type**
+
+- JSON data type being a text data-type, stores the data presentation exactly as it is sent to
+  postgresql, including whitespace and indentation, and also multiple keys when present.
+
+  > NO processing at all done on the content, only form validation.
+
+- JSONB data-type is an advanced binary storage format with full processing, indexing & searching capabilities and such pre-prcesses json data to an internal format, which does include a single value per key, Also extra whitespace & indentation will no longer appear.
+
+- [json](https://www.postgresqltutorial.com/postgresql-json/) ✅
+- [jsonb](https://scalegrid.io/blog/using-jsonb-in-postgresql-how-to-effectively-store-index-json-data-in-postgresql/#:~:text=JSONB%20stands%20for%20%E2%80%9CJSON%20Binary,you%20should%20be%20using%20JSONB.)
+- [jsonb vs json vs hstore](https://heap.io/blog/when-to-avoid-jsonb-in-a-postgresql-schema)
+
+**Network Address data-types**
+PostgreSQL offers data-type to store `IPv4`, `IPv6` & `Mac Addresses`.
+
+- the Network Address types are -
+  |Name |Storage Size |Notes |
+  |---|---|---|
+  |cidr |7 or 19 bytes |IPv4 & IPv6 networks |
+  |inet |7 or 19 bytes |IPv4 & IPv6 hosts & networks |
+  |macaddr |6 bytes |MAC addresses |
+  |macaddr8 |8 bytes |MAC addresses (EUI- 64 format) |
+
+it is better to use this types instead of plain text type to store network addresses, because these offer input error checking and specialized operators & functions
+
+- special sorting mechanism -
+  when sorting inet or cidr data type, IPv4 will always sort before IPv6
+
+- This types are bundled with indexing support and advanced functions and operator support.
+
+references -
+
+- [bit vs bytes][https://www.ncta.com/whats-new/why-do-we-use-bits-measure-internet-speed-but-bytes-measure-data#:~:text=a%20bit%20is%20the%20smallest,a%20single%20character%20of%20text.] ✅
+
+- [netmasks](https://www.hacksplaining.com/glossary/netmasks)✅
