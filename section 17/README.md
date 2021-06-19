@@ -15,3 +15,4 @@
 
 - handling null values with group by
   - use COALESCE(column_name, 'default value')
+    ![handling_null]("./coalesce.png")

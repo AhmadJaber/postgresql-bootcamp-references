@@ -1,6 +1,6 @@
 -- HAVING clause
 -- we use HAVING clause to specify a search condintion for a group or an aggregate
--- HAVING clause is often used with ORDER BY clause
+-- HAVING clause is often used with GROUP BY clause
 -- i can not use column aliases in the HAVING clause, because Having evaluates
 -- before SELECT clause.
 -- having clause claculates on aggregate function & not actual select columns!
